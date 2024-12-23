@@ -1,0 +1,21 @@
+body{
+  background-color: black;
+}
+
+h1 {
+  background: linear-gradient(90deg, 
+              #d988da, #dcde8a, #d988da);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 3s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+
+  text-align: center;
+  font-size: 84px;
+  margin-top: 125px;
+}
+@keyframes animate {
+  0% { background-position: -500%; }
+  100% { background-position: 500%; }
+}
